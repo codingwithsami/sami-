@@ -1,0 +1,136 @@
+/* body {  
+    padding: 0px;
+    margin: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.form {
+    width: 300px;
+    margin: 0 auto;
+}
+.form input{
+    display: block;
+    margin: 20px;
+    width: 100%;
+    padding: 5px 0;
+    outline: none;
+}
+.form button{
+    width: 100%;
+    margin: 2px 20px;
+    background: indigo;
+    color: #fff;
+    padding: 5px 0;
+    border: 1px solid;
+    cursor: pointer;
+    transition: .5s ease-in;
+}
+.form button:hover {
+    background: transparent;
+    border: 1px solid;
+    color: #111;
+}
+.update_Data {
+    visibility: hidden;
+}
+.show {
+    visibility: visible;
+}
+.form h1 {
+    margin-left: 20px;
+}
+.table{
+    margin: 20px auto;
+    width: 60%;
+    border: 1px solid;
+}
+table button:hover{
+    border: 1px solid;
+    color: #111;
+
+}
+table .del{
+    background: rg(108, 6, 6);
+    color: #f51919;
+}
+table.up{
+    background-color: rgb(6, 54, 108);
+    color: #2744e9;
+}
+.table tr td{
+    border: 1px solid;
+}
+#notification{
+    background-color: rgba(76, 201, 27, 0.822);
+    width: 100%;
+    display: block;
+    text-align: center;
+} */
+
+body {  
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.form {
+    width: 300px;
+    margin: 0 auto;
+}
+.form input{
+    display: block;
+    margin: 20px 0;
+    width: 100%;
+    padding: 5px 0;
+    outline: none;
+}
+.form button{
+    width: calc(100% - 40px);
+    margin: 2px 20px;
+    background: indigo;
+    color: #fff;
+    padding: 5px 0;
+    border: 1px solid;
+    cursor: pointer;
+    transition: .5s ease-in;
+}
+.form button:hover {
+    background: transparent;
+    border: 1px solid;
+    color: #111;
+}
+.update_data {
+    visibility: hidden;
+}
+.show {
+    visibility: visible;
+}
+.form h1 {
+    margin-left: 20px;
+}
+.table {
+    margin: 20px auto;
+    width: 60%;
+    border: 1px solid;
+}
+.table button:hover {
+    border: 1px solid;
+    color: #111;
+}
+.table .del {
+    background: rgb(108, 6, 6);
+    color: #f51919;
+}
+.table .up {
+    background-color: rgb(6, 54, 108);
+    color: #2744e9;
+}
+.table tr td {
+    border: 1px solid;
+}
+#notification {
+    background-color: rgba(76, 201, 27, 0.822);
+    width: 100%;
+    display: block;
+    text-align: center;
+}
